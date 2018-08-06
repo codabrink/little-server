@@ -1,0 +1,33 @@
+{
+  "name": "little-server",
+  "version": "1.0.0",
+  "main": "src/application.js",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/core": ">=7.0.0-beta.52",
+    "@babel/plugin-proposal-class-properties": ">=7.0.0-beta.52",
+    "@babel/plugin-proposal-decorators": ">=7.0.0-beta.52",
+    "@babel/plugin-proposal-object-rest-spread": ">=7.0.0-beta.52",
+    "@babel/plugin-syntax-dynamic-import": ">=7.0.0-beta.52",
+    "@babel/plugin-transform-destructuring": ">=7.0.0-beta.52",
+    "@babel/plugin-transform-regenerator": ">=7.0.0-beta.52",
+    "@babel/plugin-transform-runtime": ">=7.0.0-beta.52",
+    "@babel/preset-env": ">=7.0.0-beta.52",
+    "@babel/preset-react": ">=7.0.0-beta.52",
+    "@babel/preset-stage-0": ">=7.0.0-beta.52",
+    "babel-loader": "^8.0.0-beta",
+    "babel-polyfill": "^6.26.0",
+    "deepmerge": "^2.1.0",
+    "es6-promise": "^4.2.4",
+    "html-webpack-plugin": "^3.2.0",
+    "mobx": "5.0.3",
+    "mobx-react": "^5.2.3",
+    "query-string": "^6.1.0",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "react-router-dom": "^4.3.1",
+    "webpack": "^4.15.1",
+    "webpack-cli": "^3.0.8",
+    "whatwg-fetch": "^2.0.4"
+  }
+}
