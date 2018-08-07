@@ -1,12 +1,6 @@
 {
   "presets": [
     "@babel/preset-react",
-    ["@babel/preset-stage-0",
-     {
-       "pipelineProposal": "minimal",
-       "decoratorsLegacy": true
-     }
-    ],
     ["@babel/env",
      {
        "modules": false,
@@ -29,7 +23,6 @@
       "@babel/plugin-transform-runtime",
       {
         "helpers": false,
-        "polyfill": false,
         "regenerator": true
       }
     ],
