@@ -6,7 +6,7 @@ const devMode              = process.env.NODE_ENV !== 'production'
 module.exports = {
   entry: {
     stylesheet: './src/css/application.scss',
-    main:       './src/application.js',
+    main:       './src/js/application.js',
   },
   mode: 'development',
   devtool: 'source-map',

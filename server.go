@@ -46,9 +46,10 @@ func serveDst(w http.ResponseWriter, r *http.Request) {
 func scanServe(path string) []byte {
 	var content []byte
 	for _, dir := range serveDirs {
-		content, err := ioutil.ReadFile(filepath.Join(dir, path))
-		if (err == nil && len(content) != 0) {return content}
+		var err error
+		content, err = ioutil.ReadFile(filepath.Join(dir, path))
+		if err == nil {break}
 	}
-	if (len(content) == 0) {log.Fatal(util.Concat("File ", path, " not found."))}
+	if (len(content) == 0) {log.Println(util.Concat("File ", path, " not found."))}
 	return content
 }
